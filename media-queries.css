@@ -1,4 +1,4 @@
-@media screen and (max-width:700px) {
+@media screen and (min-width:1px) and (max-width:700px){
 
     main {
         font-family: sans-serif;
@@ -78,8 +78,75 @@
 
 }
 
-@media screen and (min-width:701px) {
+@media screen and (min-width:701px) and (max-width:1200px){
 
+main{
+     margin: 1em;
+     font-family: sans-serif;
+ }
+
+.hidden-on-desktop{
+        visibility: hidden;
+    }
+
+.nav-links{
+    float: right;
+}
+
+h1{
+    float: left;
+    font-size: 3em;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+li{
+    padding: 1em;
+    position: relative;
+    top: 2em;
+}
+
+.main   {
+    width: 60%;
+    display: inline-block;
+    padding-right: 1em;
+    margin-right: 3em;
+    position: relative;
+    bottom: 3em;
+
+
+}
+
+.sub-section{
+    font-style: italic;
+    margin-bottom: 4em;
+    width: 30%;
+    display: inline-block;
+    padding-right: .25em;
+
+
+
+}
+
+img{
+    width: 100%;
+
+}
+h2{
+    margin: 1em;
+    margin-left: 0;
+}
+
+h2:nth-of-type(1){
+    margin-bottom: 2em;
+}
+
+footer{
+    margin-top: 10em;
+}
 
 
 
